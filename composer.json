@@ -1,0 +1,17 @@
+{
+    "name": "your-vendor/my-package",
+    "description": "Library for yii2 by vinhz.com",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "yii2"],
+    "require": {
+        "php": ">=7.4",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vinh\\": "src/",
+            "Vinh\\Test\\": "test/"
+        }
+    }
+}
